@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');    
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    background-color: #0b579f;
+}
+
+main {
+    display: flex;
+    max-width: 38rem;
+    background-color: #1687d4;
+    margin: 2rem auto;
+    padding: 1.25rem;
+    border: 1px solid #0b5088;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: min(100%,40rem);
+}
+
+#cidade {
+    width: 100%;
+    padding: 0.625rem;
+    font-size: 1rem;
+}
+
+.cidade {
+  width: 100%;
+  background-color: #fefefe ;  
+}
+
+.cidade:hover {
+    background-color: #c5c5c5;
+    }
+#previsao {
+    margin-top: 1rem;
+    }
+.dia {
+    padding: 0.625rem;
+    border: 3px solid #000000;
+    background-color: #e3e3e3;
+    }
